@@ -30,6 +30,7 @@ public class Calc {
                             answer = num1 * Integer.parseInt(s);
                             num1 = answer;
                             flag = false;
+                            continue;
                     }
                 }
                 num1 += Integer.parseInt(s);
