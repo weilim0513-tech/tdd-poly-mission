@@ -26,6 +26,10 @@ public class Calc {
                             num1 = answer;
                             flag = false;
                             continue;
+                        case "*" :
+                            answer = num1 * Integer.parseInt(s);
+                            num1 = answer;
+                            flag = false;
                     }
                 }
                 num1 += Integer.parseInt(s);
